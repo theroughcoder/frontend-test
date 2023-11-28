@@ -3,7 +3,7 @@
     margin: 0;
     
 }
-body{
+#container{
     background:  #F1F6F8;
 }
 
@@ -271,7 +271,6 @@ header {
 .require {
     padding: 20px;
     border-radius: 6px;
-    background: #FFF;
     box-shadow: 0px 8px 24px 0px rgba(3, 27, 40, 0.04), 0px 4px 4px 0px rgba(4, 44, 81, 0.08);
 }
 
@@ -283,6 +282,10 @@ header {
     line-height: normal;
     text-transform: capitalize;
     font-family: monospace;
+}
+#jira-cont{
+    
+    background: #FFF;
 }
 
 #jira {
@@ -313,7 +316,7 @@ header {
     box-shadow: 4px 4px 4px 0px rgba(255, 153, 0, 0.12), -4px -4px 4px 0px rgba(255, 255, 255, 0.80);
 }
 
-form{
+#form{
     display: flex;
     margin-top: 30px;
 }
@@ -340,4 +343,19 @@ input {
     border-radius: 4px;
     border: 1px solid #D8D8D8;
     background: #FFF;
+}
+
+#submitBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#submitBtn button{
+
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
 }
