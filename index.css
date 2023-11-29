@@ -1,10 +1,11 @@
 /* website header */
 * {
     margin: 0;
-    
+
 }
-#container{
-    background:  #F1F6F8;
+
+#container {
+    background: #F1F6F8;
 }
 
 header {
@@ -267,6 +268,55 @@ header {
     text-transform: uppercase;
 }
 
+.stage {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background: #FFF;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.stage-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin: 25px;
+}
+
+.stage-no {
+    color: #797979;
+    /* font-family: Montserrat; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.stage-title {
+    overflow: hidden;
+    color: #2F2F2F;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Montserrat;
+    font-style: normal;
+    /* font-weight: 600; */
+
+    width: 140px;
+}
+.stage-bar{
+    width: 94px;
+    height: 2px;
+    background: #234361;
+    position: absolute;
+    right: -70px;
+    top: 7px;
+}
 
 .require {
     padding: 20px;
@@ -283,8 +333,9 @@ header {
     text-transform: capitalize;
     font-family: monospace;
 }
-#jira-cont{
-    
+
+#jira-cont {
+
     background: #FFF;
 }
 
@@ -316,7 +367,7 @@ header {
     box-shadow: 4px 4px 4px 0px rgba(255, 153, 0, 0.12), -4px -4px 4px 0px rgba(255, 255, 255, 0.80);
 }
 
-#form{
+#form {
     display: flex;
     margin-top: 30px;
 }
@@ -325,6 +376,7 @@ header {
     width: 50%;
     padding: 5px;
 }
+
 .form-right {
     width: 50%;
     padding: 5px;
@@ -345,13 +397,13 @@ input {
     background: #FFF;
 }
 
-#submitBtn{
+#submitBtn {
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
-#submitBtn button{
+#submitBtn button {
 
     padding: 8px;
     margin: 5px;
