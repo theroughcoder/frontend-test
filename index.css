@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Montserrat/Montserrat-VariableFont_wght.ttf) format('woff2');
+}
+
+  
 /* website header */
 * {
     margin: 0;
@@ -35,12 +43,12 @@ header {
 
 .dropdown {
     color: #787878;
-    font-family: monospace;
-    font-size: 14px;
-    font-style: normal;
+    font-family: montserrat ;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    font-size: 12px;
+
 }
 
 #info {
@@ -59,6 +67,7 @@ header {
     align-items: center;
     gap: 10px;
     background-color: #F1F3F7;
+
 }
 
 #lenskart-logo {
@@ -87,8 +96,8 @@ header {
 
 #username {
     color: #2F2F2F;
-    /* font-family: monospace; */
-    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -130,6 +139,8 @@ header {
     gap: 10px;
     flex-shrink: 0;
     background: #234361;
+    font-family: Montserrat;
+
 }
 
 #dash-cont {
@@ -247,7 +258,7 @@ header {
     line-height: normal;
     text-transform: uppercase;
     padding-bottom: 2px;
-    font-family: monospace;
+    font-family: montserrat ;
 }
 
 .prod-title {
@@ -256,7 +267,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    font-family: monospace;
+    font-family: montserrat ;
 }
 
 .prod-right {
@@ -266,6 +277,8 @@ header {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    font-family: montserrat ;
+
 }
 
 .stage {
@@ -288,7 +301,7 @@ header {
 
 .stage-no {
     color: #797979;
-    /* font-family: Montserrat; */
+    font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -305,6 +318,8 @@ header {
     text-overflow: ellipsis;
     font-family: Montserrat;
     font-style: normal;
+    font-size: 12px;
+
     /* font-weight: 600; */
 
     width: 140px;
@@ -331,7 +346,7 @@ header {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
-    font-family: monospace;
+    font-family: montserrat ;
 }
 
 #jira-cont {
@@ -345,7 +360,7 @@ header {
 
 #jira-head {
     color: #2F2F2F;
-    font-family: monospace;
+    font-family: montserrat ;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -356,7 +371,7 @@ header {
 
 #jira-head button {
     color: #FEA111;
-    font-family: monospace;
+    font-family: montserrat ;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -388,6 +403,8 @@ header {
     gap: 8px;
     padding: 5px;
     /* flex: 1 0 0; */
+    font-family: Montserrat;
+
 }
 
 input {
@@ -395,6 +412,7 @@ input {
     border-radius: 4px;
     border: 1px solid #D8D8D8;
     background: #FFF;
+    padding-left: 10px;
 }
 
 #submitBtn {
@@ -410,4 +428,6 @@ input {
     border-radius: 5px;
     border: 0;
     color: #FFF;
+    font-family: Montserrat;
+
 }
