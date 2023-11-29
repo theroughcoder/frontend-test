@@ -413,6 +413,8 @@ input {
     border: 1px solid #D8D8D8;
     background: #FFF;
     padding-left: 10px;
+    font-family: Montserrat;
+
 }
 
 #submitBtn {
@@ -423,11 +425,12 @@ input {
 
 #submitBtn button {
 
-    padding: 8px;
+    padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     border: 0;
     color: #FFF;
     font-family: Montserrat;
+    font-size: small;
 
 }
